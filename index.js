@@ -101,4 +101,4 @@ class Mee6LevelsApi {
 	}
 }
 
-module.exports = Mee6LevelsApi;
+module.exports.default = Mee6LevelsApi;
