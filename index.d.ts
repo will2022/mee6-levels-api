@@ -40,8 +40,8 @@ interface User {
 
 export default class Mee6LevelsApi {
     private static getId(guildOrUser: Identifier): string;
-    public static async getRoleRewards(guild: Identifier): Promise<Reward[]>;
-    public static async getLeaderboardPage(guild: Identifier, limit?: number, page?: number): Promise<User[]>;
-    public static async getLeaderboard(guild: Identifier): Promise<User[]>;
-    public static async getUserXp(guild: Identifier, user: Identifier): Promise<User | undefined>;
+    public static getRoleRewards(guild: Identifier): Promise<Reward[]>;
+    public static getLeaderboardPage(guild: Identifier, limit?: number, page?: number): Promise<User[]>;
+    public static getLeaderboard(guild: Identifier): Promise<User[]>;
+    public static getUserXp(guild: Identifier, user: Identifier): Promise<User | undefined>;
 }
